@@ -16,11 +16,11 @@ const Header= () => {
           <Resume />
           <HeaderSocials />
 
-          <div className='me'>
+          <div className='profile__photo'>
             <img src={profilePhoto} alt="Photo of Zach Sykes" />
           </div>
 
-          <a href='#contact' className='scroll-down'>Scroll Down</a>
+          <a href='#contact' className='scroll__down'>Scroll Down</a>
         </div>
       </header>
     </div>
