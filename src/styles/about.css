@@ -85,6 +85,8 @@
 
 }
 
+/* -----small screen----- */
+
 @media screen and (max-width: 600px){
     .about__me {
         width: 65%;
