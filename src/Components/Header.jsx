@@ -1,6 +1,7 @@
 import '../styles/header.css';
 import Resume from '../Components/Resume';
 import profilePhoto from '../assets/profile.jpg';
+import HeaderSocials from '../Components/HeaderSocials'
 
 const Header= () => {
   return (
@@ -13,7 +14,8 @@ const Header= () => {
             FullStack Developer
           </h5>
           <Resume />
-          
+          <HeaderSocials />
+
           <div className='me'>
             <img src={profilePhoto} alt="Photo of Zach Sykes" />
           </div>
