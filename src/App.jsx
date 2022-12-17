@@ -4,12 +4,8 @@ import Nav from './Components/Nav';
 import About from './Components/About';
 import Experience from './Components/Experience';
 import Portfolio from './Components/Portfolio';
-import Reviews from './Components/Reviews';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-
-import { Route, Routes } from "react-router-dom";
-
 
 const App = () => {
 
@@ -20,7 +16,6 @@ const App = () => {
       <About />
       <Experience />
       <Portfolio />
-      <Reviews />
       <Contact />
       <Footer />
     </>
