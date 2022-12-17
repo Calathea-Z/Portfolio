@@ -1,5 +1,6 @@
-import '../styles/header.css'
-import Resume from '../Components/Resume'
+import '../styles/header.css';
+import Resume from '../Components/Resume';
+import profilePhoto from '../assets/profile.jpg';
 
 const Header= () => {
   return (
@@ -8,10 +9,16 @@ const Header= () => {
         <div className="container header__container">
           <h5>Hello I'm</h5>
           <h1> Zach Sykes</h1>
-          <div className="text-light">
+          <h5 className="text-light">
             FullStack Developer
-          </div>
+          </h5>
           <Resume />
+          
+          <div className='me'>
+            <img src={profilePhoto} alt="Photo of Zach Sykes" />
+          </div>
+
+          <a href='#contact' className='scroll-down'>Scroll Down</a>
         </div>
       </header>
     </div>
