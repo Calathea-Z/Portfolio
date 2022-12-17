@@ -2,9 +2,9 @@ import '../styles/contact.css'
 
 const Contacts = () => {
   return (
-    <div>
+    <section id='contact'>
       Contact
-    </div>
+    </section>
   )
 }
 
