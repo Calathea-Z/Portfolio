@@ -1,5 +1,7 @@
 import '../styles/footer.css'
 import { FiInstagram } from 'react-icons/fi'
+import { TbBrandLinkedin } from 'react-icons/tb'
+import { FaGithub } from 'react-icons/fa'
 
 const Footer  = () => {
   return (
@@ -13,6 +15,8 @@ const Footer  = () => {
       </ul>
 
       <div className='footer__socials'>
+        <a href='https://www.linkedin.com/in/zach-sykes' target='_blank'>< TbBrandLinkedin /></a>
+        <a href='https://github.com/Calathea-Z' target='_blank'>< FaGithub /></a>
         <a href='https://www.instagram.com/caltheaz/' target='_blank'>< FiInstagram /> </a>
       </div>
     </footer>
