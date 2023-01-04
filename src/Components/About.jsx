@@ -1,5 +1,5 @@
 import '../styles/about.css'
-import suziePhoto from '../assets/suzie.jpg';
+import profileTwo from '../assets/profile2.png';
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {RiFolder2Line} from 'react-icons/ri'
@@ -13,7 +13,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-img'>
-            <img src={suziePhoto} alt='Profile'/>
+            <img src={profileTwo} alt='Profile'/>
           </div>
         </div>
         <div className='about__content'>
