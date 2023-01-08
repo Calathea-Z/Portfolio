@@ -6,8 +6,8 @@ const data = [
   {
     id: 1,
     image: BlackjackIMG,
-    title: 'Blackjack (JavaScript)',
-    github: 'https://github.com/Calathea-Z/black_jack',
+    title: 'ShoeString',
+    github: 'https://github.com/Calathea-Z/ShoeString-Frontend',
     demo: 'https://github.com'
   },
   {

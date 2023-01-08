@@ -14,35 +14,53 @@ const Experience = () => {
             <article className='experience__details'>
               < FaCheckCircle className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>React</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Javascript</h4>
               </div>
             </article>
             <article className='experience__details'>
               < FaCheckCircle className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               < FaCheckCircle className='experience__details-icon' />
               <div>
-                <h4>JavaScript</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>HTML</h4>
               </div>
             </article>
             <article className='experience__details'>
               < FaCheckCircle className='experience__details-icon' />
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Bootstrap</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>TypeScript</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Next.js</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Tailwind.css</h4>
               </div>
             </article>
           </div>
         </div>
-
-
         <div className='experience__backend'>
         <h3>Backend Development</h3>
           <div className='experience__content'>
@@ -50,21 +68,24 @@ const Experience = () => {
               < FaCheckCircle className='experience__details-icon' />
               <div>
                 <h4>Node.js</h4>
-                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               < FaCheckCircle className='experience__details-icon' />
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               < FaCheckCircle className='experience__details-icon' />
               <div>
-                <h4>Python</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>Express.js</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>PostgreSQL</h4>
               </div>
             </article>
           </div>

@@ -17,7 +17,7 @@ const About = () => {
           </div>
         </div>
         <div className='about__content'>
-          <div className='about__cards'>
+          {/* <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
@@ -36,8 +36,8 @@ const About = () => {
               <small>3+</small>
            </article>
 
-          </div>
-           <p>Zach is a good guy! 
+          </div> */}
+           <p>I am a software engineer with a background in fast-paced & high volume kitchen management where I've gained eight years of experience building and cultivating dynamic teams. I’m passionate about finding elegant and efficient solutions to difficult problems.
           </p>
           
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
