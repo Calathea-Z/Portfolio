@@ -37,7 +37,7 @@ const About = () => {
            </article>
 
           </div> */}
-           <p>I am a software engineer with a background in fast-paced & high volume kitchen management where I've gained eight years of experience building and cultivating dynamic teams. I’m passionate about finding elegant and efficient solutions to difficult problems.
+           <p>I am a musician turned software engineer with a background working in fast-paced & high volume kitchen management where I gained eight years of experience building and cultivating dynamic teams. When I'm not furthering my development skill-set you might find me at a concert, cycling, or planning my next adventure to travel somewhere new.
           </p>
           
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

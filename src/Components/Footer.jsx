@@ -17,7 +17,6 @@ const Footer  = () => {
       <div className='footer__socials'>
         <a href='https://www.linkedin.com/in/zach-sykes' target='_blank' rel="noreferrer">< TbBrandLinkedin /></a>
         <a href='https://github.com/calatheaz' target='_blank' rel="noreferrer">< FaGithub /></a>
-        <a href='https://www.instagram.com/calatheaz/' target='_blank' rel="noreferrer">< FiInstagram /> </a>
       </div>
     </footer>
   )

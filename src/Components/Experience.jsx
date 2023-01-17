@@ -6,6 +6,7 @@ const Experience = () => {
     <section id='experience'>
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
+      <h1>Hi</h1>
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
@@ -86,6 +87,12 @@ const Experience = () => {
               < FaCheckCircle className='experience__details-icon' />
               <div>
                 <h4>PostgreSQL</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Python</h4>
               </div>
             </article>
           </div>

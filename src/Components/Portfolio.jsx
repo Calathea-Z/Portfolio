@@ -1,21 +1,21 @@
 import '../styles/portfolio.css'
-import BlackjackIMG from '../assets/blackjack_ui.png'
+import ShoeString from '../assets/shoeString.png'
 import RandomDogIMG from '../assets/randomdog_ui.png'
 
 const data = [
   {
     id: 1,
-    image: BlackjackIMG,
-    title: 'ShoeString',
+    image: ShoeString,
+    title: 'ShoeString (MongoDB, Express, React, Node.js)',
     github: 'https://github.com/Calathea-Z/ShoeString-Frontend',
-    demo: 'https://github.com'
+    demo: 'https://shoestring.netlify.app'
   },
   {
     id: 2,
     image: RandomDogIMG,
-    title: 'Random Dog App (REACT)',
-    github: 'https://github.com/Calathea-Z/project-two-react-app',
-    demo: 'https://github.com' 
+    title: 'Random Dog App (React, Node.js)',
+    github: 'https://github.com/Calathea-Z/Find-A-Dog',
+    demo: 'randomdogphoto.netlify.app' 
   }
 ]
 
@@ -36,7 +36,7 @@ const Portfolio = () => {
           </div>
           <h3>{ title }</h3>
           <div className="portfolio__item-cta">
-            <a href={ github } className='btn'>GitHub</a>
+            <a href={ github } className='btn' target='_blank'>GitHub</a>
             <a href={ demo } className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
