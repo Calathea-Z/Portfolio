@@ -18,9 +18,20 @@
     cursor: default;
 }
 
+.portfolio__description {
+    padding-bottom: 10px;
+}
+
 .portfolio__item-image {
     border-radius: 1rem;
     overflow: hidden;
+    height: 30rem;
+    width: 30rem;
+    /* display: flex; */
+}
+
+.port-photo {
+    object-fit:cover
 }
 
 .portfolio__item h3 {
