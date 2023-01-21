@@ -15,7 +15,6 @@ const Header= () => {
           </h5>
           <Resume />
           <HeaderSocials />
-
           <div className='profile__photo'>
             <img src={profilePhoto} alt="Zach Sykes" />
           </div>

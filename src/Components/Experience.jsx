@@ -20,6 +20,12 @@ const Experience = () => {
             <article className='experience__details'>
               < FaCheckCircle className='experience__details-icon' />
               <div>
+                <h4>React Native</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
                 <h4>Javascript</h4>
               </div>
             </article>
