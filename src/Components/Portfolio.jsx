@@ -1,7 +1,7 @@
 import '../styles/portfolio.css'
-import ShoeString from '../assets/shoeString.png'
-import RandomDogIMG from '../assets/randomdog_ui.png'
-import DeliveryApp from '../assets/deliveryAppPhoto.png'
+import ShoeString from '../assets/shoestring_mockup.png'
+import RandomDogIMG from '../assets/random_dog_mock.png'
+import DeliveryApp from '../assets/delivery_app_mockup.png'
 
 const data = [
   {
