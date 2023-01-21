@@ -37,9 +37,8 @@ const About = () => {
            </article>
 
           </div> */}
-           <p>I am a musician turned software engineer with a background working in fast-paced & high volume kitchen management where I gained eight years of experience building and cultivating dynamic teams. When I'm not furthering my development skill-set you might find me at a concert, cycling, or planning my next adventure to travel somewhere new.
+           <p>I am a musician turned software engineer with a background working in fast-paced & high volume kitchen management where I gained eight years of experience building and cultivating dynamic teams. When I'm not furthering my development skills you'll most likely find me at a concert, riding my bike, or planning my next trip to travel somewhere new. I currently reside in Asheville, North Carolina (I am open to relocating) where I work with my coding partner, Suzie the French Bulldog. 
           </p>
-          
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
