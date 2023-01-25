@@ -1,16 +1,19 @@
 import '../styles/portfolio.css'
-import ShoeString from '../assets/shoeString.png'
-import RandomDogIMG from '../assets/randomdog_ui.png'
-import DeliveryApp from '../assets/deliveryAppPhoto.png'
+import ShoeString from '../assets/shoestring_mockup.png'
+import RandomDogIMG from '../assets/random_dog_mock.png'
+import DeliveryApp from '../assets/delivery_app_mockup.png'
+
+
+
 
 const data = [
   {
     id: 1,
     image: DeliveryApp,
     title: 'To Your Door (Delivery App Case Study)',
-    description: "This app was built by reverse engineering popular delivery apps. This app was developed with React Native and is optimized for mobile devices. It has a user friendly database that can easily be added to by anyone and is styled using Tailwind.CSS",
+    description: "This app was built by reverse engineering popular delivery apps. This app was developed with React Native using React Redux and is optimized for mobile devices. It has a user friendly database built using Sanity that can easily be added to by anyone, and is styled using Tailwind.CSS",
     github: 'https://github.com/Calathea-Z/To-Your-Door-Delivery-App-Case-Study-',
-    demo: 'https://shoestring.netlify.app'
+    demo: 'https://youtube.com/shorts/h0LDTesEako?feature=share'
   },
   {
     id: 2,
@@ -49,7 +52,7 @@ const Portfolio = () => {
           <h5 className="portfolio__description">{description}</h5>
           <div className="portfolio__item-cta">
             <a href={ github } className='btn' target='_blank'>GitHub</a>
-            <a href={ demo } className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href={ demo } className='btn btn-primary' target='_blank'>Demo</a>
           </div>
         </article>
             )

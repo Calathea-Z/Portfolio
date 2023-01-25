@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    max-height:fit-content;
 }
 
 .portfolio__item {
@@ -25,14 +26,12 @@
 .portfolio__item-image {
     border-radius: 1rem;
     overflow: hidden;
-    height: 30rem;
-    width: 30rem;
     /* display: flex; */
 }
 
-.port-photo {
+/* .port-photo {
     object-fit:cover
-}
+} */
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
