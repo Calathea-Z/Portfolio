@@ -100,6 +100,18 @@ const Experience = () => {
                 <h4>Python</h4>
               </div>
             </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Flask</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              < FaCheckCircle className='experience__details-icon' />
+              <div>
+                <h4>Django</h4>
+              </div>
+            </article>
           </div>
         </div>
       </div>
