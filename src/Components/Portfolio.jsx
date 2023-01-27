@@ -15,14 +15,14 @@ const data = [
     github: 'https://github.com/Calathea-Z/To-Your-Door-Delivery-App-Case-Study-',
     demo: 'https://youtube.com/shorts/h0LDTesEako?feature=share'
   },
-  // {
-  //   id: 2,
-  //   image: ShoeString,
-  //   title: 'ShoeString (MERN Stack)',
-  //   description: "ShoesString is a digital guest book for the world allowing users to comment about local spots of interest and share their experiences with friends.I built the full stack application with one teammate using React, Node.js, Express.js, and MongoDB.",
-  //   github: 'https://github.com/Calathea-Z/ShoeString-Frontend',
-  //   demo: 'https://shoestring.netlify.app'
-  // },
+  {
+    id: 2,
+    image: ShoeString,
+    title: 'ShoeString (MERN Stack)',
+    description: "ShoesString is a digital guest book for the world allowing users to comment about local spots of interest and share their experiences with friends.I built the full stack application with one teammate using React, Node.js, Express.js, and MongoDB.",
+    github: 'https://github.com/Calathea-Z/ShoeString-Frontend',
+    demo: 'https://shoe-string-frontend-v2-1yqmsaqdd-calathea-z.vercel.app/'
+  },
   {
     id: 3,
     image: RandomDogIMG,
