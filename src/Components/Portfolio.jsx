@@ -20,7 +20,7 @@ const data = [
     image: ShoeString,
     title: 'ShoeString (MERN Stack)',
     description: "ShoesString is a digital guest book for the world allowing users to comment about local spots of interest and share their experiences with friends.I built the full stack application with one teammate using React, Node.js, Express.js, and MongoDB.",
-    github: 'https://github.com/Calathea-Z/ShoeString-Frontend',
+    github: 'https://github.com/Calathea-Z/ShoeString-frontend-v2',
     demo: 'https://shoe-string-frontend-v2-1yqmsaqdd-calathea-z.vercel.app/'
   },
   {
