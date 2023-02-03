@@ -2,6 +2,7 @@ import '../styles/portfolio.css'
 import ShoeString from '../assets/shoestring_mockup.png'
 import RandomDogIMG from '../assets/random_dog_mock.png'
 import DeliveryApp from '../assets/delivery_app_mockup.png'
+import MelodiusDemoPhoto from '../assets/melodius_mockup.png'
 
 
 
@@ -9,27 +10,35 @@ import DeliveryApp from '../assets/delivery_app_mockup.png'
 const data = [
   {
     id: 1,
+    image: MelodiusDemoPhoto,
+    title: "Melodious",
+    description: "My playlist generator app is a unique and innovative solution for music lovers who are looking for personalized playlists. The app leverages the power of Spotify and OpenAI APIs to deliver artists suggestions based on the user's input prompt. It allows the user to input any sort of prompt they want and get back artist suggestions that can be used to build their playlists. The app also serves as a spotify controller, making it convenient for users to play music directly from the app. With its user-friendly interface and advanced features, the playlist generator is a perfect tool for anyone looking to enhance their music listening experience.",
+    github: 'https://github.com/Calathea-Z/Melodious',
+    demo: 'https://melodius.vercel.app/',
+  },
+  {
+    id: 2,
     image: DeliveryApp,
     title: 'To Your Door (Delivery App Case Study)',
-    description: "This app was built by reverse engineering popular delivery apps. This app was developed with React Native using React Redux and is optimized for mobile devices. It has a user friendly database built using Sanity that can easily be added to by anyone, and is styled using Tailwind.CSS",
+    description: "This app was built through reverse-engineering of top delivery apps. Built with React Native, it's fast and easy to use on your mobile device. The database is a breeze to update thanks to Sanity.io and it looks great using Tailwind.css styling.",
     github: 'https://github.com/Calathea-Z/To-Your-Door-Delivery-App-Case-Study-',
     demo: 'https://youtube.com/shorts/h0LDTesEako?feature=share'
   },
   {
-    id: 2,
+    id: 3,
     image: ShoeString,
     title: 'ShoeString (MERN Stack)',
-    description: "ShoesString is a digital guest book for the world allowing users to comment about local spots of interest and share their experiences with friends.I built the full stack application with one teammate using React, Next.js, Node.js, Express.js, and MongoDB.",
+    description: "ShoesString is a digital guest book for people all over the world to share their thoughts on cool spots and experiences with their friends. My teammate and I built the app using React, Next.js, Node.js, Express.js, and MongoDB in a one week sprint",
     github: 'https://github.com/Calathea-Z/ShoeString-frontend-v2',
     demo: 'https://shoe-string-frontend-v2.vercel.app/'
   },
   {
-    id: 3,
+    id: 4,
     image: RandomDogIMG,
-    title: 'Random Dog App (React, Node.js)',
-    description: " The Random Dog App was created to encourage adoption of dogs in need and also to provide some joy at anytime of the day. This app was built using React. It calls an API and outputs photos of random dogs. The user can be more specific and select by breed if they so choose.",
+    title: 'Random Dog (React, Node.js)',
+    description: "Random Dog was developed with the aim of promoting canine adoption and spreading happiness through its user-friendly interface. Utilizing React technology, the app accesses a API to showcase photographs of diverse breeds of dogs in a random manner. User have the option to further refine their selection by specifying a specific breed of their preference.",
     github: 'https://github.com/Calathea-Z/Find-A-Dog',
-    demo: 'randomdogphoto.netlify.app' 
+    demo: 'https://randomdogphoto.netlify.app' 
   }
 ]
 
