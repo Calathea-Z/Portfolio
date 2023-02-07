@@ -12,9 +12,9 @@ const data = [
     id: 1,
     image: MelodiusDemoPhoto,
     title: "Melodious",
-    description: "My playlist generator app is a unique and innovative solution for music lovers who are looking for personalized playlists. The app leverages the power of Spotify and OpenAI APIs to deliver artists suggestions based on the user's input prompt. It allows the user to input any sort of prompt they want and get back artist suggestions that can be used to build their playlists. The app also serves as a spotify controller, making it convenient for users to play music directly from the app. With its user-friendly interface and advanced features, the playlist generator is a perfect tool for anyone looking to enhance their music listening experience.",
+    description: "My playlist generator app is a unique and innovative solution for music lovers who are looking for personalized playlists. The app leverages the power of Spotify and OpenAI APIs to deliver artists suggestions based on the user's input prompt. It allows the user to input any sort of prompt they want and get back artist suggestions that can be used to build their playlists. The app also serves as a spotify controller, making it convenient for users to play music directly from the app. With its user-friendly interface, the playlist generator is a perfect tool for anyone looking to enhance their music listening experience. If you would like to access the app and check it out for your self please don't hesitate to get in touch",
     github: 'https://github.com/Calathea-Z/Melodious',
-    demo: 'https://melodius.vercel.app/',
+    demo: 'https://www.youtube.com/watch?v=xzMnZkHFiNs',
   },
   {
     id: 2,
