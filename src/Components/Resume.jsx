@@ -1,4 +1,4 @@
-import resume from '../assets/resume.docx' 
+import resume from '../assets/resume.pdf' 
 
 const Resume = () => {
   return (
