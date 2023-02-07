@@ -2,7 +2,7 @@ import '../styles/portfolio.css'
 import ShoeString from '../assets/shoestring_mockup.png'
 import RandomDogIMG from '../assets/random_dog_mock.png'
 import DeliveryApp from '../assets/delivery_app_mockup.png'
-import MelodiusDemoPhoto from '../assets/melodius_mockup.png'
+import MelodiousDemoPhoto from '../assets/melodius_mockup.png'
 
 
 
@@ -10,9 +10,9 @@ import MelodiusDemoPhoto from '../assets/melodius_mockup.png'
 const data = [
   {
     id: 1,
-    image: MelodiusDemoPhoto,
-    title: "Melodious",
-    description: "My playlist generator app is a unique and innovative solution for music lovers who are looking for personalized playlists. The app leverages the power of Spotify and OpenAI APIs to deliver artists suggestions based on the user's input prompt. It allows the user to input any sort of prompt they want and get back artist suggestions that can be used to build their playlists. The app also serves as a spotify controller, making it convenient for users to play music directly from the app. With its user-friendly interface, the playlist generator is a perfect tool for anyone looking to enhance their music listening experience. If you would like to access the app and check it out for your self please don't hesitate to get in touch",
+    image: MelodiousDemoPhoto,
+    title: "Melodious (React, Next.js, Tailwind.css, Recoil)",
+    description: "This playlist generator app offers a personalized music experience for music lovers. The app utilizes Spotify and OpenAI APIs to generate artist suggestions based on the user's input prompt and serves as a Spotify controller for convenient play. If you'd like to access the app and try it out, please don't hesitate to get in touch"
     github: 'https://github.com/Calathea-Z/Melodious',
     demo: 'https://www.youtube.com/watch?v=xzMnZkHFiNs',
   },
