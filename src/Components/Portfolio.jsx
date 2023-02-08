@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: MelodiousDemoPhoto,
     title: "Melodious (React, Next.js, Tailwind.css, Recoil)",
-    description: "This playlist generator app offers a personalized music experience for music lovers. The app utilizes Spotify and OpenAI APIs to generate artist suggestions based on the user's input prompt and serves as a Spotify controller for convenient play. If you'd like to access the app and try it out, please don't hesitate to get in touch"
+    description: "This playlist generator app offers a personalized music experience for music lovers. The app utilizes Spotify and OpenAI APIs to generate artist suggestions based on the user's input prompt and serves as a Spotify controller for convenient play. If you'd like to access the app and try it out, please don't hesitate to get in touch",
     github: 'https://github.com/Calathea-Z/Melodious',
     demo: 'https://www.youtube.com/watch?v=xzMnZkHFiNs',
   },
